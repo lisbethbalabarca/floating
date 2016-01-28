@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:content-box;
+}
+
+.container{
+	border: solid 1px #CCCCCC;
+	width: 800px;
+}
+.caja{
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+.clearfix:after, .clearfix:before{  
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
